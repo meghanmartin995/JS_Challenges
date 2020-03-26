@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+}
+.drums {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#key {
+  padding: 7px 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid grey;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 3px;
+  transition: all 0.07s;
+}
+
+
+#key h1 {
+  color: #E3A265;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 0;
+  margin-bottom: 12px;
+}
+
+#key p {
+  color: #9B4C03;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.playing {
+  border-color: yellow;
+  background: yellow !important;
+}
